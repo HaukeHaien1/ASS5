@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"><hi rend="bold">Ist die Impfpflicht angesichts von Omikron
+                  obsolet?</hi></title>
+            <title type="sub">Wenn Omikron keine Gefahr für das Gesundheitssystem ist, spießt sich
+               das mit der Impfpflicht. Das Gegenargument: Führt man sie jetzt ein, wäre man einer
+               nächsten Welle erstmals voraus</title>
+            <author>Gabriele Scherndl</author>
+            <respStmt>
+               <resp>Kodierung des Artikels</resp>
+               <name>Georg Maximilian Reiter</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title><ref
+                     target="https://www.derstandard.at/story/2000133179995/ist-die-impfpflicht-angesichts-omikron-obsolet"
+                     >DerStandard</ref></title><editor><name><forename>Oscar</forename>Bronner<surname/></name></editor><publisher>STANDARD
+                  Verlagsgesellschaft m.b.H</publisher><pubPlace>Wien</pubPlace><date
+                  when="2022-02-07T17:01:00">7. Februar, 17:01</date></bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson type="interviewees">
+         <person xml:id="NO">
+            <persName><forename>Norbert</forename><surname>Nowotny</surname></persName>
+         </person>
+         <person xml:id="PO">
+            <persName><forename>Niki</forename><surname>Popper</surname></persName>
+         </person>
+         <person xml:id="KLP">
+            <persName><forename>Maria</forename><surname>Kletečka-Pulker</surname></persName>
+         </person>
+         <person xml:id="KN">
+            <persName><forename>Benjamin</forename><surname>Kneihs</surname></persName>
+         </person>
+         <person xml:id="KL">
+            <persName><forename>Andreas</forename><surname>Kletečka</surname></persName>
+         </person>
+      </listPerson>
+   </standOff>
+   <text>
+      <body>
+         <div>
+            <head>Ist die Impfpflicht angesichts von Omikron obsolet?</head>
+            <p>Wenn Omikron keine Gefahr für das Gesundheitssystem ist, spießt sich das mit der
+               Impfpflicht. Das Gegenargument: Führt man sie jetzt ein, wäre man einer nächsten
+               Welle erstmals</p>
+         </div>
+         <figure>
+            <graphic
+               url="https://i.ds.at/mdnI_A/rs:fill:1600:0/plain/2022/02/07/6646D599-6929-4A91-8618-78074D66341B-1.jpg"/>
+            <p>Die Verordnung zum Impfpflichtgesetz ist <date notBefore="2022-02-07T12:00:00"
+                  >Montagnachmittag</date> im Hauptausschuss des Nationalrats mit den Stimmen von <choice>
+                  <abbr type="acronym"><orgName type="political">ÖVP</orgName></abbr>
+                  <expan><placeName><country key="AUT">Österreichische</country></placeName>
+                     Volkspartei</expan>
+               </choice>, <choice>
+                  <abbr type="acronym"><orgName type="political">SPÖ</orgName></abbr>
+                  <expan>Sozialdemokratische Partei <placeName><country key="AUT"
+                           >Österreich</country></placeName></expan>
+               </choice> und <choice>
+                  <abbr><orgName type="political">Grünen</orgName></abbr>
+                  <expan>Die Grünen - Die Grüne Alternative</expan>
+               </choice> beschlossen worden. Ebenfalls am <date when="2022-02-07">Montag</date> ging
+               der erste Antrag zum Gesetz beim <orgName type="political"
+                  >Verfassungsgerichtshof</orgName> ein.</p>
+            <p>Foto: www.acv.at/Ludwig Schedl</p>
+            <figDesc>Das Bild zeigt eine Person in medizinischer Schutzkleidung, die mit einer
+               einladenden Armgeste eine andere, auf sie zukommende Person, die von hinten zu sehen
+               ist, in eine Kabine zur Covid-19-Schutzimpfung einlädt.</figDesc>
+         </figure>
+         <div>
+            <p>Fast auf den Tag genau auf dem Höhepunkt der Delta-Welle verkündete die Regierung die
+               Impfpflicht: Beinahe 16.000 Neuinfektionen wurden da gezählt, die Intensivstationen
+               waren mit mehr als 500 belegten Corona-Betten übervoll. <date when="2022-02-07"
+                  >Heute</date> ist die Lage anders: Zwar waren die Infektionszahlen am <date
+                  when="2022-02-07">Montag</date> mit 27.299 fast doppelt so hoch wie damals, in den
+               Covid-Intensivstationen liegen aber deutlich weniger Menschen: 202.</p>
+         </div>
+         <div>
+            <head><hi rend="bold">Zu spät oder zu früh</hi></head>
+            <p>Das entfacht eine Diskussion nun wieder neu: Ist die Impfpflicht angesichts dieser
+               vorsichtigen Zeichen der Entspannung noch angebracht? Einer, der die Debatte erneut
+               anfachte, ist der Virologe <persName xml:lang="ger"><forename>Norbert</forename>
+                  <surname>Nowotny</surname></persName>. Im Gespräch mit dem <choice>
+                  <abbr><ref target="https://oe1.orf.at/player/20220207/668468/1644217849000"><hi
+                           rend="underline">ORF</hi></ref></abbr>
+                  <expan><placeName><country key="AUT">Österreichischer</country></placeName>
+                     Rundfunk</expan>
+               </choice> sagte er, die Impfpflicht wäre in Zeiten von Omikron <q who="NO">"nicht
+                  mehr wirklich in dieser Form notwendig"</q>. Strafen, sagt <rs type="person"
+                  ref="#NO">er</rs>, solle man <q who="NO">"auf Eis legen"</q>.</p>
+         </div>
+         <div>
+            <p>Die Impfpflicht ist nur dann zulässig, wenn sie dafür sorgt, dass die öffentliche
+               Gesundheitsversorgung entlastet wird. Sind wegen einer Genesung oder aus dem Grund,
+               weil sie ohnehin schon geimpft sind, so viele Personen immun, dass eine Impfpflicht
+               die Lage nicht mehr merklich verbessern würde, dann wäre sie nicht mehr mit der
+               Verfassung vereinbar.</p>
+         </div>
+         <div>
+            <p>Momentan hatten, das steht im <ref
+                  target="https://www.bundeskanzleramt.gv.at/dam/jcr:2b0f6a4e-f8ec-4a38-8a5f-1cf4e64246bc/gecko_executive_report_04022022.pdf"
+                     ><hi rend="underline">aktuellen<choice>
+                        <abbr>Gecko</abbr>
+                        <expan>Gesamtstaatliche Covid-Krisenkoordination</expan>
+                     </choice>-Bericht</hi></ref>, <num type="percentage" value="93">93
+                  Prozent</num> aller Menschen in <placeName><country key="AUT"
+                  >Österreich</country></placeName>> bereits Kontakt mit dem Virus oder wurden
+               bereits geimpft – inklusive der Dunkelziffer jener, die nicht im <choice>
+                  <abbr>EMS</abbr>
+                  <expan>Epidemologisches Meldesystem</expan>
+               </choice> erfasst sind. Nur: Das gilt seit Beginn der Pandemie. Tatsächlich sind,
+                  <ref target="http://www.dexhelpp.at/de/immunisierungsgrad/"><hi rend="underline"
+                     >wie Daten von Simulationsforscher <persName xml:lang="ger"
+                           ><forename>Niki</forename>
+                        <surname>Popper</surname></persName> zeigen</hi></ref>, momentan nur <num
+                  type="percentage" value="86">86 Prozent</num> gegen Delta und <num
+                  type="percentage" value="66">66 Prozent</num> gegen Omikron geschützt. Wobei
+                  <persName xml:lang="ger"><surname>Popper</surname></persName> betont: Anstieg und
+               Abfall seien da extrem dynamisch.</p>
+         </div>
+         <div>
+            <p>Es ist zudem völlig unklar, welche Varianten noch kommen werden, zumindest momentan
+               gilt aber: Die Impfung schützt besser und umfassender als das Genesensein von nur
+               einer Variante. So argumentierte man das auch in der Politik, wo man längst davon
+               abrückte, die Impfpflicht als Akutmaßnahme darzustellen. Aus dem <orgName
+                  type="political">Gesundheitsministerium</orgName> heißt es auf die Anfrage des
+                  <orgName>STANDARD</orgName>, ob man darüber nachdenke, mit der Impfpflicht doch
+               noch zuzuwarten: <q who="#PO">"Da aus aktueller Sicht anzunehmen ist, dass sich das
+                  Virus auch nach der Omikron-Variante noch weiterentwickeln wird, ist die
+                  Impfpflicht selbstverständlich weiterhin das beste Werkzeug, das wir in der Hand
+                  haben, um die Pandemie nachhaltig zu beenden."</q></p>
+         </div>
+         <div>
+            <head><hi rend="bold">Juristerei uneins</hi>
+            </head>
+            <p>Nun sind politische Vorhaben das eine, die gesetzlichen Voraussetzungen das andere.
+                  <persName xml:lang="ger"><forename>Maria</forename>
+                  <surname>Kletečka-Pulker</surname></persName> ist stellvertretende Leiterin des
+                  <orgName>Instituts für Ethik und Recht</orgName> in der Medizinabteilung der <orgName><choice>
+                     <abbr>Uni</abbr>
+                     <expan>Universität</expan>
+                  </choice>
+                  <placeName><settlement type="city">Wien</settlement></placeName></orgName> und
+               sieht zumindest den Punkt, den Virologe
+                  <persName><surname>Nowotny</surname></persName> vorbringt. Wenn sich die Lage
+               weiter entspannt, dann könne schon in <num type="cardinal" value="2">zwei</num>
+               Wochen eine Impfpflicht nicht mehr gerechtfertigt sein, sagt die <rs type="person"
+                  ref="#KLP">Juristin</rs>. Und: <q who="#KLP">"Man darf dann nicht den Fehler
+                  machen und sagen: ‚Wir wollen partout eine Impfpflicht.‘ Es geht um den Schutz der
+                  Bevölkerung, und den muss man evaluieren."</q> Sollte der eben durch die
+               Impfpflicht nicht in Aussicht sein, müsse man das Gesetz novellieren und doch nicht
+               schon ab <date notBefore="2022-03-16">Mitte März</date> strafen.</p>
+         </div>
+         <div>
+            <p>Doch auch Rechtsmeinungen gehen auseinander. Jurist <persName xml:lang="ger"
+                     ><forename>Andreas</forename>
+                  <surname>Kletečka</surname></persName> hat einen Schwerpunkt auf Medizinrecht und
+               lässt das Argument, die Impfpflicht komme für Omikron zu spät, nicht gelten: <q
+                  who="#KL">"Wir sind immer eine Welle zu spät"</q>, sagt <rs type="person"
+                  ref="#KL">er</rs>, <q>"wenn wir auf die Welle warten, können wir nur zu spät
+                  sein."</q></p>
+         </div>
+         <div>
+            <p>Er ist der Ansicht, es sei rechtlich vertretbar, eine Impfpflicht auch vorbeugend für
+               etwaige nächste Wellen in Kraft treten zu lassen. Verfassungsjurist
+                     <persName><forename>Benjamin</forename>
+                  <surname>Kneihs</surname></persName> formulierte das kürzlich in einem Podcast mit
+                  <persName xml:lang="ger"><surname>Kletečka</surname></persName> so: Solange man
+               nicht wisse, wie gefährlich die nächste Variante sei, "<q who="#KN">darf der Staat
+                  auf der vorsichtigen Seite sein"</q>.</p>
+         </div>
+         <div>
+            <p>In der Praxis ist das Gesetz dabei sich selbst überlassen: Es muss alle <num
+                  type="cardinal" value="3">drei</num> Monate evaluiert werden. Mindestens <num
+                  type="cardinal" value="2">zwei</num> Juristinnen oder Juristen und <num
+                  type="cardinal" value="2">zwei</num> Medizinerinnen oder Mediziner müssen dann
+               prüfen, ob es noch taugt, die medizinische Versorgung aufrechtzuerhalten. (<persName
+                  xml:lang="ger"
+               ><forename>Gabriele</forename><surname>Scherndl</surname></persName>, <date
+                  when="2022-02-07">7.2.2022</date>)</p>
+         </div>
+      </body>
+   </text>
+</TEI>
